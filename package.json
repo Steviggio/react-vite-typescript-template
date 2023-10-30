@@ -6,7 +6,7 @@
   "author": "",
   "license": "ISC",
   "scripts": {
-    "start": "vite",
+    "dev": "vite",
     "build": "vite build",
     "serve": "build",
     "test": "jest",
@@ -14,7 +14,6 @@
     "lint:fix": "eslint . --ext .ts,.tsx,.js,.jsx --fix",
     "prettier": "prettier --write \"**/*.+(json|yml|css|md|mdx)\"",
     "typecheck": "tsc --noEmit",
-    "clean": "rimraf yarn.lock package-lock.json node_modules build",
     "cypress:run": "cypress run",
     "cypress:headed": "cypress run --headed",
     "cypress:run:chrome": "cypress run --browser chrome",
@@ -26,7 +25,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.17.0",
-    "recoil": "^0.7.7",
+    "recoil": "^0.7.7"
   },
   "devDependencies": {
     "@percy/cli": "^1.27.3",
